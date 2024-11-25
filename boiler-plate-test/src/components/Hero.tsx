@@ -4,9 +4,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="relative">
-      {/* w-full min-h-[80vh] flex flex-col flex-1 items-center justify-center overflow-hidden */}
-
+    <section className="relative w-full min-h-[80vh] flex flex-col flex-1 items-center justify-center overflow-hidden">
       {/* Main Content */}
       <div className="container mx-auto px-4 text-center">
         <motion.div
