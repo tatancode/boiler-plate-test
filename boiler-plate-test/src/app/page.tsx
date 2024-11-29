@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] min-h-screen gap-16 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[auto_1fr_auto] min-h-screen gap-16 font-[family-name:var(--font-geist-sans)]">
       <div>Header</div>
       <main className="flex flex-col gap-8 row-[2] items-center w-full">
         <Hero />
